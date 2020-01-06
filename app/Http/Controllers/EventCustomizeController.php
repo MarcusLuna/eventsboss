@@ -80,6 +80,7 @@ class EventCustomizeController extends MyBaseController
         $rules = [
             'social_share_text'      => ['max:3000'],
             'social_show_facebook'   => ['boolean'],
+            'social_show_instagram'  => ['boolean'],
             'social_show_twitter'    => ['boolean'],
             'social_show_linkedin'   => ['boolean'],
             'social_show_email'      => ['boolean'],
@@ -101,6 +102,7 @@ class EventCustomizeController extends MyBaseController
 
         $event->social_share_text = $request->get('social_share_text');
         $event->social_show_facebook = $request->get('social_show_facebook');
+        $event->social_show_instagram = $request->get('social_show_instagram');
         $event->social_show_linkedin = $request->get('social_show_linkedin');
         $event->social_show_twitter = $request->get('social_show_twitter');
         $event->social_show_email = $request->get('social_show_email');

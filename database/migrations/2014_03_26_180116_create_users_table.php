@@ -216,6 +216,7 @@ class CreateUsersTable extends Migration
 
             $t->text('social_share_text')->nullable();
             $t->boolean('social_show_facebook')->default(true);
+            $t->boolean('social_show_instagram')->default(true);
             $t->boolean('social_show_linkedin')->default(true);
             $t->boolean('social_show_twitter')->default(true);
             $t->boolean('social_show_email')->default(true);

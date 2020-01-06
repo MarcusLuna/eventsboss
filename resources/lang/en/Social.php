@@ -11,6 +11,7 @@ return array (
   'email' => 'Email',
   'facebook' => 'Facebook',
   'g+' => 'Google+',
+  'insta' => 'Instagram',
   'linkedin' => 'LinkedIn',
   'share_buttons_to_show' => 'Share Buttons To Show',
   'social_settings' => 'Social Settings',

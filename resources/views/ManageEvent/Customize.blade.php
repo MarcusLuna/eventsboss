@@ -296,6 +296,10 @@
                             {!! Form::label('social_show_facebook', trans("Social.facebook")) !!}
                         </div>
                         <div class="custom-checkbox mb5">
+                            {!! Form::checkbox('social_show_instagram', 1, $event->social_show_instagram, ['id' => 'social_show_instagram', 'data-toggle' => 'toggle']) !!}
+                            {!! Form::label('social_show_instagram', trans("Social.instagram")) !!}
+                        </div>
+                        <div class="custom-checkbox mb5">
 
                             {!! Form::checkbox('social_show_twitter', 1, $event->social_show_twitter, ['id' => 'social_show_twitter', 'data-toggle' => 'toggle']) !!}
                             {!! Form::label('social_show_twitter', trans("Social.twitter")) !!}

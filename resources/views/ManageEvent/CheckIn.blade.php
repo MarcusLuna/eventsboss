@@ -25,7 +25,7 @@
     <style>
         body {
             background: url({{asset('assets/images/background.png')}}) repeat;
-            background-color: #2E3254;
+            background-color: #F06C1D;
             background-attachment: fixed;
         }
     </style>

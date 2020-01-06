@@ -5,19 +5,19 @@
 
 return array (
   //============================== New strings to translate ==============================//
-  'scan_another_ticket' => 'Scan Another Ticket',
-  'scanning' => 'Scanning',
+  'scan_another_ticket' => 'Digitalizar outro ticket',
+  'scanning' => 'Digitalização',
   //==================================== Translations ====================================//
-  'attendees' => 'Attendees',
-  'check_in' => 'Check in: :event',
+  'attendees' => 'Participantes',
+  'check_in' => 'Check in: :evento',
   'email' => 'Email',
-  'email_address' => 'Email Address',
-  'event_attendees' => 'Event Attendees',
-  'first_name' => 'First Name',
-  'last_name' => 'Last Name',
-  'name' => 'Name',
+  'email_address' => 'Email ',
+  'event_attendees' => 'Participantes do evento',
+  'first_name' => 'Primeiro Nome',
+  'last_name' => 'Último Nome',
+  'name' => 'Nome',
   'ticket' => 'Ticket',
-  'reference' => 'Reference',
-  'search_attendees' => 'Search Attendees...',
-  'send_invitation_n_ticket_to_attendee' => 'Send invitation & ticket to attendee.',
+  'reference' => 'Referência',
+  'search_attendees' => 'Pesquisar participantes...',
+  'send_invitation_n_ticket_to_attendee' => 'Enviar convite e ingresso para o participante.',
 );
